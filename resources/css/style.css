@@ -1,0 +1,173 @@
+/* Universal Styles */
+
+html,
+body {
+	font-family: helvetica;
+	font-size: 18px;
+	color: white;
+	background-color: white;
+	opacity: 1;
+}
+
+h1 {
+	font-size: 1rem;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 0.75rem;
+}
+
+/* Header Style */
+
+header {
+	display: flex;
+  	align-items: center;
+  	position: fixed;
+  	width: 100%;
+  	height: 2.32rem;
+  	background-color: black;
+	margin-top: 0;
+    z-index: 1;
+}
+
+header img {
+	height: 1.5rem;
+	width: auto;
+	margin-left: 0.5rem;
+	margin-right: 1rem;
+}
+
+p {
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+/* Main Content Style */
+
+.container {
+	display: flex;
+	flex-flow: column wrap;
+	text-align: center;
+	padding-top: 2.32rem;
+	width: 960px;
+}
+
+/* Banner Style */
+
+.banner {
+	background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg');
+	height: 25rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.announce {
+	background-color: black;
+	width: 20rem;
+	margin-top: 9rem;
+	padding-top: 2rem;
+	padding-left: 3rem;
+	padding-bottom: 2rem;
+	text-align: left;
+}
+
+.announce h1 {
+	font-weight: bold;
+}
+
+.announce p {
+	font-weight: bold;
+	margin-top: 0.25rem;
+}
+
+/* Menu Style */
+
+
+nav {
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-around;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	background-color: firebrick;	
+}
+
+/* Products Style */
+
+.products {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	justify-content: space-between;
+	padding-top: 3rem;
+}
+
+.item {
+	width: 30%;
+	border: 4px solid black;
+}
+
+.item img {
+	height: 9rem;
+	width: ;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.item h2 {
+	background-color: black;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+/* Information Style */
+
+.information {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-top: 3rem;
+	width: 100%;
+}
+
+.location, .hours {
+	width: 35%;
+}
+
+.info-title {
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	padding-left: 2rem;
+	background-color: black;
+	text-align: left;
+}
+
+.info {
+	color: black;
+	text-align: left;
+	padding-top: 0.25rem;
+	margin-bottom: 4rem;
+}
+
+
+/* Footer Style */
+
+footer {
+	width: 100%;
+	height: 5rem;
+	background-color: black;
+	color: white;
+	display: flex;
+	align-items: center;
+	text-align: left;
+}
+
+
+
+
+
+
