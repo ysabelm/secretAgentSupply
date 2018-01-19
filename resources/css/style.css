@@ -102,9 +102,30 @@ nav ul {
   }
 }
 
+@media only screen and (max-width: 470px) {
+  .banner {
+    height: 15rem;
+  }
+
+  .announce {
+    width: 100%;
+    padding: 1rem 2rem;
+    top: 10rem;
+  }
+
+  .announce h3 {
+    font-size: .77rem;
+  }
+
+  .announce h1 {
+    font-size: 1rem;
+  }
+}
+
 /* Products Style */
 
-.products .container {
+.products,
+.business-information {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 3rem;
@@ -156,15 +177,34 @@ nav ul {
 
 .information {
 	width: 35%;
-	
 }
 
-.info-title {
+.information .info-title {
 	padding: 1rem 2rem;
 	background-color: black;
 	color: white;
 }
 
+@media only screen and (max-width: 470px) {
+  .products,
+  .business-information {
+    flex-wrap: wrap;
+  }
+
+  .item {
+    width: 90%;
+    margin: auto;
+  }
+
+  .item.watch {
+    display: none;
+  }
+
+  .information {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+}
 
 /* Footer Style */
 
@@ -175,16 +215,11 @@ footer {
   	color: white;
 }
 
-
-
-/*
-
-@media only screen and(max-width: 1024px) {
-	.menu {
-		<button>Menu</button>
-	}
+@media only screen and (max-width: 470px) {
+  footer {
+    text-align: center;
+  }
 }
-*/
 
 
 
