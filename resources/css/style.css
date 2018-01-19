@@ -52,7 +52,6 @@ header img {
 	background-size: cover;
 	background-position: center;
 	height: 25rem;
-	/*display: flex;
 	align-items: center;*/
 }
 
@@ -71,6 +70,8 @@ header img {
 	line-height: 1.2;
 }
 
+
+
 /* Menu Style */
 
 
@@ -88,6 +89,17 @@ nav ul {
 
 .mobile-menu {
 	display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block;
+    text-align: center;
+  }
 }
 
 /* Products Style */
@@ -121,6 +133,16 @@ nav ul {
 	background-color: black;
 	color: white;
 	text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .item {
+    width: 47%;
+  }
+
+  .item.glasses {
+    display: none;
+  }
 }
 
 /* Information Style */
